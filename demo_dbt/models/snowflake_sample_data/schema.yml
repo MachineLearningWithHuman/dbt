@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_sample_data # this is the source_name
+    database: demo_db
+    schema: TPCDS_SF10TCL
+
+    tables:
+      - name: store_sales # this is the table_name
+      
